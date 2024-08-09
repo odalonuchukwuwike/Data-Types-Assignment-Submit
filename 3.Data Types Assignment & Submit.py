@@ -1,0 +1,5 @@
+temp_Fahrenheit = input("Enter the temperature value in Fahrenheit only: ")
+temp_Fahrenheit = float(temp_Fahrenheit)
+temp_Celcius = (5/9) * (temp_Fahrenheit - 32)
+temp_Celcius = round(temp_Celcius, 2)
+print("Temperature (C):{}".format(temp_Celcius))
